@@ -6,3 +6,4 @@ const supabaseKey =
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default supabase;
+var tes = 1;

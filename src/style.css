@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #292524;
-  color: #fafaf9;
+  background-color: #4c1d95;
+  color: #f5f3ff;
   font-family: "Sono", sans-serif;
   padding: 40px;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .disputed {
-  color: #ef4444;
+  color: #ff7979;
   font-weight: 600;
   margin-right: 10px;
 }
@@ -89,7 +89,7 @@ h1 {
   border-radius: 16px;
   font-size: 20px;
   line-height: 1.4;
-  background-color: #44403c;
+  background-color: #6d28d9;
   margin-bottom: 16px;
   padding: 16px 24px;
   letter-spacing: -1px;
@@ -129,11 +129,11 @@ h1 {
 
 .vote-buttons button {
   border: none;
-  background-color: #78716c;
+  background-color: #8b5cf6;
   font-size: 18px;
   padding: 6px 12px;
   border-radius: 100px;
-  color: inherit;
+  color: #ddd6fe;
   font-family: "Sono";
   font-weight: 600;
   cursor: pointer;
@@ -201,7 +201,7 @@ ul {
 }
 
 .fact-form {
-  background-color: #44403c;
+  background-color: #6d28d9;
   margin-bottom: 40px;
   padding: 16px 32px;
   display: flex;
@@ -213,7 +213,7 @@ ul {
 .fact-form input,
 .fact-form select {
   /* max-width: 220px; */
-  background-color: #78716c;
+  background-color: #5b21b6;
   border: none;
   border-radius: 100px;
   font-size: 18px;

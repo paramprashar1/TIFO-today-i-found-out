@@ -55,24 +55,6 @@ factsList.innerHTML = "";
 
 //Load data from Supabase
 
-async function loadFacts() {
-  const res = await fetch(
-    "https://ugdwmxrabvmybuntigbx.supabase.co/rest/v1/facts",
-    {
-      headers: {
-        apikey:
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVnZHdteHJhYnZteWJ1bnRpZ2J4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzIyNDExNzcsImV4cCI6MTk4NzgxNzE3N30.yCoN9IQAftZPXxAX1e9FUXn6yWTZlSqVvW-9Iab0fE4",
-        authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVnZHdteHJhYnZteWJ1bnRpZ2J4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzIyNDExNzcsImV4cCI6MTk4NzgxNzE3N30.yCoN9IQAftZPXxAX1e9FUXn6yWTZlSqVvW-9Iab0fE4",
-      },
-    }
-  );
-  const data = await res.json();
-  //   console.log(data);
-  //   const filteredData = data.filter((fact) => fact.category === "technology");
-  createFactsList(data);
-}
-
 loadFacts();
 // createFactsList(initialFacts);
 
